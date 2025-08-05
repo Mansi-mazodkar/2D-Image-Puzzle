@@ -1,3 +1,6 @@
+# **GitHub documentation link**(https://raw.githubusercontent.com/Mansi-mazodkar/2D-Image-Puzzle/refs/heads/main/README.md
+)
+
 # 🧩 2D Image Puzzle Game
 
 Welcome to the **2D Image Puzzle Game**, an interactive and fun web-based puzzle built with **HTML, CSS, and JavaScript**. This project was created as part of the **Hack Club Hackathon** and challenges users to reassemble a shuffled image in the shortest possible time!
