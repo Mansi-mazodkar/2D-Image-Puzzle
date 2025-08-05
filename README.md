@@ -1,5 +1,4 @@
-# **GitHub documentation link**(https://raw.githubusercontent.com/Mansi-mazodkar/2D-Image-Puzzle/refs/heads/main/README.md
-)
+ **GitHub documentation link:** [Click to Open](https://raw.githubusercontent.com/Mansi-mazodkar/2D-Image-Puzzle/refs/heads/main/README.md)
 
 # 🧩 2D Image Puzzle Game
 
