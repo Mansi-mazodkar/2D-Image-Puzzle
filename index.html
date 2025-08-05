@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🎮 Kids Puzzle Adventure</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MDJ5WEYHV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0MDJ5WEYHV');
+    </script>
     <style>
         * {
             margin: 0;
@@ -530,24 +538,6 @@
             100% { transform: scale(1); }
         }
     </style>
-    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js"></script>
-    <script>
-      // Your Firebase config and initialization
-      const firebaseConfig = {
-        apiKey: "AIzaSyAQ_75fjca-XZGu3bb1fVrLv7D4fc4n2wQ",
-        authDomain: "d-image-puzzle.firebaseapp.com",
-        projectId: "d-image-puzzle",
-        storageBucket: "d-image-puzzle.firebasestorage.app",
-        messagingSenderId: "259114808666",
-        appId: "1:259114808666:web:a81ed904a34f58b4d4af63",
-        measurementId: "G-0MDJ5WEYHV"
-      };
-
-      // Initialize Firebase
-      const app = firebase.initializeApp(firebaseConfig);
-      const analytics = firebase.analytics();
-    </script>
 </head>
 <body>
     <!-- Floating background shapes -->
@@ -2008,6 +1998,7 @@
             playMoveSound() {
                 if (typeof AudioContext !== 'undefined' || typeof webkitAudioContext !== 'undefined') {
                     const audioContext = new (AudioContext || webkitAudioContext)();
+
                     const oscillator = audioContext.createOscillator();
                     const gainNode = audioContext.createGain();
                     
